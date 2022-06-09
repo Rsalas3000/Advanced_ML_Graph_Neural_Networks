@@ -1,7 +1,11 @@
 # Demo
-`Demo.ipynb` provides a brief overview of BetaE, Explaination for queries structure code and example for traning, testing and validation for model.
-
-# Following is the original ReadMe content from authors.
+`Demo.ipynb` provides 
+- A brief overview of BetaE
+- Explaination for queries structure code 
+- Example for traning, testing and validation for model.
+- Inference examples
+----------
+_Following is the original ReadMe content from authors._
 # KGReasoning
 This repo contains several algorithms for multi-hop reasoning on knowledge graphs, including the official Pytorch implementation of [Beta Embeddings for Multi-Hop Logical Reasoning in Knowledge Graphs](https://arxiv.org/abs/2010.11465).
 
