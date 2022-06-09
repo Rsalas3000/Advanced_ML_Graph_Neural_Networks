@@ -1,8 +1,8 @@
 # Demo
 `Demo.ipynb` provides 
 - A brief overview of BetaE
-- Explaination for queries structure code 
-- Example for traning, testing and validation for model.
+- Explaination for query structure code 
+- Examples for traning, testing and validation for model.
 - Inference examples
 ----------
 _Following is the original ReadMe content from authors._
