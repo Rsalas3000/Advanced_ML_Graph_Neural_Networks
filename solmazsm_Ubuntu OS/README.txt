@@ -1,10 +1,11 @@
 # TCSS 556 A
 # Solmaz && Ruigeng
-
+*********************************************************
 Link:
+
 https://github.com/solmazsm/KGAT-pytorch/tree/master/result_solmaz_Ubuntu%20OS
 
-
+*********************************************************
 ## Reference
 # Knowledge Graph Attention Network
 This is PyTorch implementation for the paper:
@@ -22,7 +23,24 @@ pandas 1.4.2
 scipy 1.8.1
 tqdm 4.64.0
 scikit-learn 1.1.1
+python3 --version
+Python 3.8.10
+*********************************************************
+pip show torch
+Name: torch
+Version: 1.11.0
 
+pip freeze | grep 'numpy'
+numpy==1.22.4
+pip freeze | grep 'pandas'
+pandas==1.4.2
+pip freeze | grep 'scipy' 
+scipy==1.8.1
+pip freeze | grep 'tqdm' 
+tqdm==4.64.0
+pip freeze | grep  'scikit-learn'
+scikit-learn==1.1.1
+*********************************************************
 ## Datasets
 
 We user three popular datasets Amazon-book, Last-FM, and Yelp2018 to conduct experiments.
@@ -54,23 +72,17 @@ The prepared folder structure is like this:
 
 ## Train
 
-1. Now, we have provided the cold-start scenario data of last-fm. The codes for constructing the other datasets is as follows.
-   ```shell
-   python construct_data.py
-   ```
-
-2. Start training
-   # Run the Codes
+# Run the Codes
   
-   ```shell
+   
    python3 main_kgat.py 
    python3 main_ecfkg.py
    python3 main_cke.py
    python3 main_bprmf.py
    python3 main_nfm.py  
-   ```
+   
 
-
+*********************************************************
 ## Reference
 
 # Knowledge Graph Attention Network
