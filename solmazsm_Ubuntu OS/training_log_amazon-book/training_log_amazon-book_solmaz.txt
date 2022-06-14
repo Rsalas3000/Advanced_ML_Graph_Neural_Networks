@@ -1,6 +1,10 @@
 # TCSS 556 A
 # Students Solmaz && Ruigeng 
 # log
+
+#Link:
+https://github.com/solmazsm/KGAT-pytorch/tree/master/result_solmaz_Ubuntu%20OS 
+
 ## Environment Requirements
 
 Ubuntu OS
