@@ -1,4 +1,9 @@
-# Solmaz result
+# TCSS 556 A
+# Solmaz && Ruigeng
+
+Link:
+https://github.com/solmazsm/KGAT-pytorch/tree/master/result_solmaz_Ubuntu%20OS
+
 
 ## Reference
 # Knowledge Graph Attention Network
@@ -9,10 +14,14 @@ This is PyTorch implementation for the paper:
 
 ## Environment Requirements
 
-- Ubuntu OS
-- Python >= 3.8 (Anaconda3 is recommended)
-- PyTorch 1.7+
-- A Nvidia GPU with cuda 11.1+
+Ubuntu OS
+Python >= 3.8 (Anaconda3 is recommended)
+torch 1.11
+numpy 1.22.4
+pandas 1.4.2
+scipy 1.8.1
+tqdm 4.64.0
+scikit-learn 1.1.1
 
 ## Datasets
 
