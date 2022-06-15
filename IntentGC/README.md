@@ -1,6 +1,8 @@
 # IntentGC Implementation
 I have modified the GraphSAGE aggregator of the KGAT implementation to accept a custom IntentGC implementation with better convolution. To run this, use the last-fm command below with alg_type graphsage and layer size [64,64,64].
 
+The Data folder necessary can be found at the original [KGAT](https://github.com/xiangwang1223/knowledge_graph_attention_network) repository.
+
 # MODIFIED Knowledge Graph Attention Network
 This is our Tensorflow implementation for the paper:
 
